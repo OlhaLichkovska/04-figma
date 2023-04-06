@@ -45,8 +45,8 @@
 
 </head>
 <body>
-    <header class="container">
-        <div>
+    <header>
+        <div class="container">
             <nav>
                 <ul class="navbar-menu">
                     <li><a href="#home">Home</a></li>
@@ -59,12 +59,14 @@
         </div>
     </header>
     <main>
-        <article>
-            <header id="home" class="container">
+        <div class="container">
+            <section id="home">
                 <h1>Denis Novik</h1>
                 <img src="assets/imagers/denisnovik.jpg" alt="Photo">
-            </header>
-            <section id="about-me" class="container">
+            </section>
+        </div>
+        <div class="container">
+            <section id="about-me">
                 <h2><b>About me</b></h2>
                 <p>-Hi, I'm Denis – UX/UI designer from Minsk. 
                     I'm interested in design and everything connected with it.</p>
@@ -73,7 +75,9 @@
                 <p>Ready to implement excellent projects
                     with wonderful people.</p>
             </section>
-            <section id="scills" class="container">
+        </div>
+        <div class="container">
+            <section id="scills">
                 <h2><b>Scills</b></h2>
                 <p>I work in such programs as</p>
                 <ul class="teasers">
@@ -171,7 +175,9 @@
                     </li>
                 </ul>
             </section>
-            <section id="portfolio" class="container">
+        </div>
+        <div class="container">
+            <section id="portfolio">
                 <h2><b>Portfolio</b></h2>
                 <figure>
                     <img src="assets/imagers/scrp1.jpg" alt="Online fashion store - Homepage">
@@ -186,30 +192,46 @@
                     <figcaption>Braun Landing Page - Concept</figcaption>
                 </figure>
             </section>
-        </article>
+        </div>
     </main>
-    <footer id="contacts" class="container">
-        <h2><b>Contacts</b></h2>
-        <p><b>Want to know more or just chat? You are welcome!</b></p>
-            <button type="button">Send messege</button>
-             <p>
-                <button type="button">
-                    <img src="assets/imagers/Inlogo.svg" alt="Linkedin" width="20" height="20">
-                </button>
-                <button type="button">
-                    <img src="assets/imagers/Instalogo.svg" alt="Instagram" width="20" height="20">
-                </button>
-                <button type="button">
-                    <img src="assets/imagers/Bhclogo.svg" alt="Behance" width="20" height="20">
-                </button>
-                <button type="button">
-                    <img src="assets/imagers/Driblogo.svg" alt="Dribbble" width="20" height="20">
-                </button>
-             </p>
-            
-        <p>Like me on LinkedIn, Instagram, Behance, Dribble</p>
-        
-
+    <footer>
+        <div class="container">
+            <section id="contacts">
+                <h2><b>Contacts</b></h2>
+                <p><b>Want to know more or just chat? You are welcome!</b></p>
+                <button type="button"><a href="mailto:oli4kov@gmail.com">Send messege</a></button>
+                <ul>
+                    <li>
+                        <form action="https://www.linkedin.com" method="get" target="_blank">
+                            <button type="button">
+                                <img src="assets/imagers/Inlogo.svg" alt="Linkedin" width="20" height="20">
+                            </button>
+                        </form>
+                    </li>
+                    <li>
+                        <form action="https://www.instagram.com/" method="get" target="_blank">
+                            <button type="button">
+                                <img src="assets/imagers/Instalogo.svg" alt="Instagram" width="20" height="20">
+                            </button>
+                        </form>
+                    </li>
+                    <li>
+                        <form action="https://www.behance.net" method="get" target="_blank">
+                            <button type="button">
+                                <img src="assets/imagers/Bhclogo.svg" alt="Behance" width="20" height="20">
+                            </button>
+                        </form>
+                    </li>
+                    <li><form action="https://dribbble.com/" method="get" target="_blank">
+                        <button type="button">
+                            <img src="assets/imagers/Driblogo.svg" alt="Dribbble" width="20" height="20">
+                        </button>
+                    </form>
+                    </li>
+                </ul>
+                <p>Like me on LinkedIn, Instagram, Behance, Dribble</p>
+            </section>
+        </div>
     </footer>
 </body>
 </html>
